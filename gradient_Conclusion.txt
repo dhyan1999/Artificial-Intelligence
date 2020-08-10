@@ -1,0 +1,27 @@
+-2,-2,1.0,1000  | 2.4291865713546816e-11
+-2,-2,1.0,100    | 0.017741009621761353
+-2,-2,1.0,10      | 0.41483677806557867
+-2,-2,1.0,200    | 0.000620250523296623
+
+I find in the first set of experiments that 200 Value is the ideal value for the equation
+because at 1000 it get's highest and 100 it get minmum and after I change it to 10 it futhur
+increases so i found a U shaped Pattern in Epoch's value so after changing to 200 from 100
+for accurate results I found min at 200
+
+-2,-2,10.0,200   | 6.451955566487627e-22
+-2,-2,100.0,200 | 0.424998064684246  
+-2,-2,0.01,200   | 0.4156372534566991
+-2,-2,1000,200  | 0.42500000000000004
+
+In the other set of data I found that the learning rate for 100,1000 and 0.01 more or less consistent
+but high for 10 and lowest for 1.
+
+-1,-1,1,200   | 0.00010678716298949785
+-1,1,1,200    | 0.00016255421610344756
+5,1,1,200      | 0.003662532010668102
+5,9,1,200      | 0.3249918795610252
+-6,-12,1,200 | 0.42499993881697395
+
+So my conclusion is that for any value of both the weights you take but by taking learning rate = 1 and 
+Epoch = 200 you will get the most Efficient and optimized Error
+
