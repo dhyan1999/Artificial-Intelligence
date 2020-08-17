@@ -1,0 +1,61 @@
+-2,-2,1,1000
+Vanilla Gradient Descent :  2.4291865713546816e-11
+Seconds =  0.029174327850341797
+------------------------------------------------------
+Momentum Gradient Descent :  0.061915366571128845
+Seconds =  0.0009975433349609375
+------------------------------------------------------
+Nesterov Gradient Descent :  0.04608747501059983
+Seconds =  0.0013244152069091797
+
+More or less same between Momentum and and Nesterov 
+But Vanilla is way ahead of both
+
+-2,-2,1,100
+Vanilla Gradient Descent :  0.017741009621761353
+Seconds =  0.000995635986328125
+------------------------------------------------------
+Momentum Gradient Descent :  0.061915366571128845
+Seconds =  1.0251998901367188e-05
+------------------------------------------------------
+Nesterov Gradient Descent :  0.04608747501059983
+Seconds =  0.0
+
+Decreasing epoch to 100 we get almost same values between all 3
+
+-2,-2,1,10
+Vanilla Gradient Descent :  0.41483677806557867
+Seconds =  0.0
+------------------------------------------------------
+Momentum Gradient Descent :  0.061915366571128845
+Seconds =  0.0
+------------------------------------------------------
+Nesterov Gradient Descent :  0.04608747501059983
+Seconds =  0.0003368854522705078
+
+Decreasing to 10 we get More or less same between Momentum and and Nesterov 
+But Vanilla is way ahead 
+
+2,2,1,100
+Vanilla Gradient Descent :  0.002701673777471188
+Seconds =  0.002992868423461914
+------------------------------------------------------
+Momentum Gradient Descent :  0.061915366571128845
+Seconds =  0.0009970664978027344
+------------------------------------------------------
+Nesterov Gradient Descent :  0.04608747501059983
+Seconds =  0.0
+
+10,-10,1,100
+Vanilla Gradient Descent :  0.023440465682723913
+Seconds =  0.002645730972290039
+------------------------------------------------------
+Momentum Gradient Descent :  0.061915366571128845
+Seconds =  0.0003387928009033203
+------------------------------------------------------
+Nesterov Gradient Descent :  0.04608747501059983
+Seconds =  0.0
+
+
+after taking Epoch = 100 and learning rate 1 and by placing any values of weight
+and b we can get almost same values  
